@@ -1,0 +1,16 @@
+const express = require('express');
+const path = require('path');
+
+module.exports = {
+    oauth: {
+        clientId: '',
+        clientSecret: '',
+        redirectUri: '',
+        responseType: 'code',
+        grantType: 'authorization_code',
+        approvalPrompt: 'auto',
+        tokenEndpoint: '<GTM_URL>/oauth',
+        authorizationEndpoint: '<GTM_URL>/oauth/authorize',
+        apiEndpoint: '<GTM_URL>/api/user',
+    },
+};
