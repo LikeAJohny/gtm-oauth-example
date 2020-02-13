@@ -8,6 +8,21 @@
     * I've decided on JS for this example as it might be the most common sense language out there.
     * Another reason is the `middleware` architecture of `express`, which is quite easy to understand.
 
+## Requirements
+* NodeJS
+* yarn/npm
+
+## Installation
+* Clone the Repository
+    * `git clone <REPO_URL>`
+    * `cd gtm-oauth-example`
+* Install dependencies (locally in project scope)
+    * `yarn install` or `npm install`
+* Start the dev server
+    * `node server.js`
+* Open URL
+    * [http://localhost:3030](http://localhost:3030)
+
 ## Config
 Before trying out this example you need to enter your own configuration.
 * Copy `/config/config.local.js.dist` to `/config/config.local.js`
